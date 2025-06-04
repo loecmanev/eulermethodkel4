@@ -24,6 +24,6 @@ for i in range(iteration):
     ti[i+1] = t+h
     yi[i+1] = yiplus1
     
-print(f"Jadi nilai y ketika t = 100 adalah {yi[-1]}")
+print(f"Jadi nilai y ketika t = 100 adalah {yi[-1]} atau {yi[-1]:.5e}")
 
 
